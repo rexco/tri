@@ -7,7 +7,7 @@ Turntable rumble essentially is an audioband noise measurement with a frequency 
 
 _____ IEC98:1964 (unweighted) / DIN-A ________
 
-Deprecated measurement method for "unweighted rumble". Most turntables were designed during the time period when this standard was valid. If one wants to check, if a turntable designed before 1987 conforms to the manufacturers specifications, use this setting. If one reads DIN-A or IEC/A this measurement method was applied (don't confuse this A with the A-weighting that is today often used for sound level metering). 
+Deprecated measurement method for "unweighted rumble". Most turntables were designed during the time period when this standard was valid. If one wants to check if a turntable designed before 1987 conforms to the manufacturers specifications, use this setting. If one reads DIN-A or IEC/A this measurement method was applied (don't confuse this A with the A-weighting that is today often used for sound level metering). 
 
 FREQUENCY weighting - turnover frequencies 10Hz (low-pass roll-off 6dB/oct) and 315Hz (high-pass roll-off of 12dB/oct), "A-curve"
 
@@ -26,7 +26,7 @@ Represents a RMS-meter with a time constant of 1s and a decay-rate of 34,7dB/sec
 
 _____ IEC98:1964 (weighted) / DIN-B _______________
 
-Deprecated measurement method for "weighted rumble". The measurement method for "weighted rumble" according to standard before 1987. If one reads DIN-B or IEC/B this measurement method was applied.
+Deprecated measurement method for "weighted rumble" according to standard before 1987. If one reads DIN-B or IEC/B this measurement method was applied.
 
 FREQUENCY weighting - low-pass and high-pass roll-off each with 12dB/oct around 315Hz center frequency, "B-curve"
 
@@ -35,7 +35,7 @@ TIME weighting - ANSI C16.5.1954 standard VU meter characteristic with 3 seconds
 
 _____ IEC98:1987 (weighted) _______________
 
-Current measurement method for "weighted rumble". The measurement method for "weighted rumble" according to standard after 1987.
+Current measurement method for "weighted rumble" according to standard since 1987.
 
 FREQUENCY weighting - low-pass and high-pass roll-off each with 12dB/oct around 315Hz center frequency, "Y-curve"
 
@@ -43,18 +43,18 @@ TIME weighting - "slow"/"S" characteristic found in IEC61672 "sound level meter"
 Represents a RMS-meter with a time constant of 1s and a decay-rate of 34,7dB/sec.
 
 
-_____ 20Hz turnover / fast (1987) ___________
+_____ 20Hz unweighted / fast (1987) ___________
 
-Use this setting, if you want faster meter response. For example if you want to use TRI as an aid during turntable setup.
+Use this setting if you want faster meter response with current weighting. For example if you want to use TRI as an aid during turntable setup.
 
 FREQUENCY weighting - turnover frequencies 20Hz (low-pass roll-off 18dB/oct) and 315Hz (high-pass roll-off of 12dB/oct) 
 
 TIME weighting - "fast"/"F" characteristic found in IEC61672 "sound level meter" under paragraph 5.8 "time weightings F and S". 
 Represents a RMS-meter with a time constant of 0.125s and a decay-rate of 4,3dB/sec.
 
-_____ 10Hz turnover / VU 300ms (1964) ___________
+_____ 10Hz unweighted / VU 300ms (1964) ___________
 
-Use this setting, if you want faster meter response. For example if you want to use TRI as an aid during turntable setup.
+Use this setting if you want faster meter response with deprecated weighting. For example if you want to use TRI as an aid during turntable setup.
 
 FREQUENCY weighting - turnover frequencies 10Hz (low-pass roll-off 6dB/oct) and 315Hz (high-pass roll-off of 12dB/oct) 
 
