@@ -10,8 +10,8 @@ This JSFX plugin can be set to measure according to deprecated and current chara
 
 _____ IEC98:1964 (unweighted / A-curve) ________
 
-Deprecated measurement method: Most turntables were designed during the time period when this standard was valid. If one wants to check, 
-if a turntable designed before 1964 conforms to the manufacturers specifications, use this setting.
+Deprecated measurement method. Most turntables were designed during the time period when this standard was valid. If one wants to check, 
+if a turntable designed before 1987 conforms to the manufacturers specifications, use this setting.
 
 FREQUENCY weighting - turnover frequencies 10Hz (low-pass roll-off 6dB/oct) and 315Hz (high-pass roll-off of 12dB/oct) 
 
@@ -20,8 +20,7 @@ TIME weighting - ANSI C16.5.1954 standard VU meter characteristic with 3 seconds
 
 _____ IEC98:1987 (unweighted / X-curve) ________
 
-Current measurement method: Measurments with this setting are in accordance with the valid turntable standard IEC 60098:1987, 
-which references IEC61672 for the time weighting characteristic.
+Current measurement method. Measurments with this setting are in accordance with the valid turntable measurement standard IEC 60098:1987, which references IEC61672 for the time weighting characteristic.
 
 FREQUENCY weighting - turnover frequencies 20Hz (low-pass roll-off 18dB/oct) and 315Hz (high-pass roll-off of 12dB/oct) 
 
