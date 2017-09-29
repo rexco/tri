@@ -1,7 +1,7 @@
 ****************************************
 Turntable Rumble Indicator
 ****************************************
-JSFX Plugin for Reaper DAW to measure the "rumble" of a turntable via a record-armed track.
+JSFX Plugin for Reaper DAW to measure the "rumble" of a turntable.
 
 TRI measures rumble according to standard IEC 60098 "analogue audio disk records and reproducing equipment" (aka IEC98). 
 Turntable rumble essentially is a audioband noise measurement with a frequency and time weighting applied. 
