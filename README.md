@@ -3,12 +3,9 @@ Turntable Rumble Indicator
 ****************************************
 JSFX Plugin for Reaper DAW to measure the "rumble" of a turntable.
 
-TRI measures rumble according to standard IEC 60098 "analogue audio disk records and reproducing equipment" (aka IEC98). 
-Turntable rumble essentially is an audioband noise measurement with a frequency and time weighting applied. 
-The relevant standard (IEC98) changed 1987: Frequency and time weighting characteristics were adjusted. 
-This JSFX plugin can be set to measure according to deprecated characteristic, current characteristics and more.
+Turntable rumble essentially is an audioband noise measurement with a frequency and time weighting applied. TRI can measure rumble according to deprecated and current standards IEC 60098:1964 and IEC 60098:1987 "analogue audio disk records and reproducing equipment" (aka IEC98). In Germany the DIN 45539:1981 was the precursor of DIN IEC 60098:1987, so if DIN 45539 is specified, this is the same as the deprecated IEC98. In 1987 the frequency and time weighting characteristics for the measurement were adjusted.
 
-_____ IEC98:1964 (unweighted) / DIN-A) ________
+_____ IEC98:1964 (unweighted) / DIN-A ________
 
 Deprecated measurement method for "unweighted rumble". Most turntables were designed during the time period when this standard was valid. If one wants to check, if a turntable designed before 1987 conforms to the manufacturers specifications, use this setting. If one reads DIN-A or IEC/A this measurement method was applied (don't confuse this A with the A-weighting that is today often used for sound level metering). 
 
@@ -27,7 +24,7 @@ TIME weighting - "slow"/"S" characteristic found in IEC61672 "sound level meter"
 Represents a RMS-meter with a time constant of 1s and a decay-rate of 34,7dB/sec.
 
 
-_____ IEC98:1964 (weighted / DIN-B) _______________
+_____ IEC98:1964 (weighted) / DIN-B _______________
 
 Deprecated measurement method for "weighted rumble". The measurement method for "weighted rumble" according to standard before 1987. If one reads DIN-B or IEC/B this measurement method was applied.
 
