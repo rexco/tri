@@ -1,4 +1,4 @@
-*d***************************************
+****************************************
 Turntable Rumble Indicator
 ****************************************
 JSFX Plugin for Reaper DAW to measure the "rumble" of a turntable.
